@@ -57,12 +57,3 @@ To run tests for the application, use the following command:
 ```bash
 npm test
 ```
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests for any improvements or features you'd like to add. Please ensure that any new code is well-documented and tested.
-
-## License
-
-This project is licensed under the MIT License.
-
