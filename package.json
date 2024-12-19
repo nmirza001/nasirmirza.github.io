@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-slot": "^1.1.1",
     "aos": "^2.3.4",
     "chart.js": "^4.4.1",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.468.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "recharts": "^2.15.0",
     "tailwind-merge": "^1.14.0",
     "tailwindcss-animate": "^1.0.7",
     "web-vitals": "^4.2.4"
@@ -57,3 +58,4 @@
     ]
   }
 }
+
