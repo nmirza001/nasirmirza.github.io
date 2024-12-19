@@ -1,71 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Portfolio Website
 
-## Available Scripts
+A personal portfolio website showcasing Nasir Mirza's skills, projects, and experiences as a Computer Science & Economics student. The website includes interactive sections such as an interactive terminal, project display, skills, experience, and contact information.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Terminal**: A dynamic terminal that displays introductory information about Nasir, including his major, skills, and a prompt to type 'help' for commands.
+- **Project Showcase**: Display of projects with details such as project title, description, statistics, and technologies used.
+- **Skills Section**: Categorized list of skills in programming, data science, tools, and economics.
+- **Experience Section**: Details about professional and academic experiences, including teaching assistant and financial officer intern roles.
+- **Contact Information**: Links to email, GitHub, LinkedIn, and phone number.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Frontend framework used to build the interactive web app.
+- **Lucide-React**: Used for icons throughout the application.
+- **Tailwind CSS**: For styling the components with a clean, responsive design.
+- **React Hooks**: Utilized to manage state (`useState`, `useEffect`) for handling terminal text, active sections, and cursor visibility.
 
-### `npm test`
+## Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **App Component**: The main React component that contains the terminal, navigation, and sections for about, experience, projects, and skills.
+- **Card Component**: Reusable card component used to display various sections like projects, experience, and skills.
+- **Icons**: Icons from the Lucide-React library are used to represent different sections and actions.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run this project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nmirza001/portfolio.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
+   ```bash
+   cd portfolio
+   ```
 
-### `npm run eject`
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open your browser and go to `http://localhost:3000` to view the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Running Tests
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run tests for the application, use the following command:
 
-## Learn More
+```bash
+npm test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Feel free to fork the repository and submit pull requests for any improvements or features you'd like to add. Please ensure that any new code is well-documented and tested.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio
