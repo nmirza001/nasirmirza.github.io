@@ -30,12 +30,12 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/nmirza001/portfolio.git
+   [git clone https://github.com/nmirza001/nasirmirza.github.io]
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd portfolio
+   cd my-portfolio
    ```
 
 3. Install the dependencies:
@@ -57,12 +57,3 @@ To run tests for the application, use the following command:
 ```bash
 npm test
 ```
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests for any improvements or features you'd like to add. Please ensure that any new code is well-documented and tested.
-
-## License
-
-This project is licensed under the MIT License.
-
